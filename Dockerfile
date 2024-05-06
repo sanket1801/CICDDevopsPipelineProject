@@ -2,7 +2,7 @@
 FROM redhat/ubi9:latest
 
 # Creater name
-MAINTAINER "gauravkhandate@gmail.com"
+MAINTAINER "sankethirulkar18@gmail.com"
 
 # Update lib and apllication upgrade
 RUN yum update -y && yum install fontconfig java-17-openjdk -y
