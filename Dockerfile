@@ -12,7 +12,7 @@ RUN mkdir -p /opt/download/extract/tomcat
 WORKDIR /opt/download
 
 # Download minimal file of maven and java
-ADD https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.88/bin/apache-tomcat-9.0.88.tar.gz .
+ADD https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.89/bin/apache-tomcat-9.0.89.tar.gz .
 RUN tar -zxf apache-tomcat-9.0.88.tar.gz
 RUN mv -f apache-tomcat-9.0.88/* /opt/download/extract/tomcat
 
